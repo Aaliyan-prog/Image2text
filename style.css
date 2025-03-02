@@ -1,0 +1,86 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #ddd;
+}
+
+.Image-Reader{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.Image-Reader .Image{
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Image-Reader .Image .img-container{
+  width: 80%;
+  height: 80%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.Image-Reader .Image .img-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Image-Reader .Image .img-container label i{
+  width: 100%;
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.Image-Reader .Image .img-container label{
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Image-Reader .Image-text{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Image-text .text-Output{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  border: 1px solid #000;
+  overflow: scroll;
+  background-color: #000;
+  color: #fff;
+}
+
+.Image-text .text-Output .text{
+  padding: 20px;
+  font-size: 16px;
+}

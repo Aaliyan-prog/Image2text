@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" />
+  <!-- v5 -->
+  <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
+  <title>Image Reader</title>
+</head>
+<body>
+  <div class="container">
+    <div class="Image-Reader">
+      <div class="Image">
+        <div class="img-container">
+          <label for="Image" id="Upload-UI">
+            <i class="fa-solid fa-upload"></i>
+            Upload Your Image
+          </label>
+          <input type="file" name="Image" id="Image" accept="image" style="display: none;">
+        </div>
+      </div>
+      <div class="Image-text">
+        <div class="text-Output">
+          <div class="text"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
